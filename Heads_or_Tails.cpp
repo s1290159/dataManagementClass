@@ -4,6 +4,12 @@
 #include<random>
 using namespace std;
 int main(){
+  string name;
+  cout << "Who are you?" << endl << "> ";
+  cin >> name;
+  cout << "Hello, " << name << "!" << endl;
+
+
   int a=0;
 
   srand(time(NULL));
