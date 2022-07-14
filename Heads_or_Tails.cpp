@@ -19,5 +19,10 @@ int main(){
     }
   }
   cout << "Heads: " << a << ", Tails: " << 3-a << endl;
+  if(a > 1){
+    cout << "You won" << endl;
+  }else{
+    cout << "You lost" << endl;
+  }
   return 0;
 }
